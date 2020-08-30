@@ -1,0 +1,87 @@
+*{margin: 0;
+	padding: 0;
+  }
+
+
+ a{ text-decoration: none; }
+
+ .menu{ text-align: center;
+        height: 70px;
+        background: #91a0a7;
+        line-height: 70px; }
+
+ .menu ul li{
+ 	display: inline-block;
+ }
+
+ .menu ul li a{
+ 	font-size: 16px;
+ 	color: black;
+ 	font-weight: 600;
+ 	margin: 0px 10px;
+ 	transition: 0.5s;
+ }
+
+ .menu ul li a:hover{
+ 	color: white;
+ 	font-size: 19px;
+ 	transition: 0.5s;
+ }
+ /* banner section css*/
+
+ .banner{
+ 	width: 100%;
+ 	background-image: url(../img/banner.jpg);
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	background-position: center;
+ 	height: 100vh;
+ 	position: relative;
+
+ }
+.box01 h1{
+	text-align: center;
+
+	
+}
+
+.box01{
+	width: 500px;
+	height: 420px;
+	position: absolute; 
+	left: 30%;
+	top: 10%;
+	border-radius: 5%; 
+	box-shadow: 0 0 20px 9px black;
+	text-align: center;
+	opacity: 0.5;
+
+}
+
+
+.form input{width: 250px;
+           height: 25px;
+           text-align: center;
+           background: white;
+           
+           }
+
+.social-media ul li{list-style: none;
+	                 display: inline-block;
+                    margin: 40px 10px;
+                    }   
+
+.social-media ul li a i{font-size: 22px;
+	                    height: 50px;
+	                    width: 50px;
+	                    background: #91a0a7;
+	                    border-radius: 50px;
+	                    line-height: 50px;
+	                    margin:0px 10px;
+	                    color: black;
+
+}                  
+.social-media ul li a i:hover{background:#492781;
+	                          color: white;
+
+}
